@@ -1,0 +1,4 @@
+Q : Can a subclass static method hide superclass instance method?
+
+--> No subclass static method can't hide superclass instance method.
+    It gives compilation error if you do it.

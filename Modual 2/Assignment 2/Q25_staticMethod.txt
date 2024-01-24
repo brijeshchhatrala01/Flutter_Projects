@@ -1,0 +1,9 @@
+Q : Can we override static method in dart? 
+
+->  No we can't override static method in dart.
+   
+   -Static method only access by it's class name.
+    
+   -It can't be access or called by any instance of class
+
+   -It gives compile time error if you try to override static method in dart.

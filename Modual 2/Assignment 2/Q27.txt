@@ -1,0 +1,46 @@
+Q : A) Can class implements more than one interface? B) Can class extends more than one class in dart ?
+
+--> A) Yes. class can be implements more than one interface at once.
+       Through this we can achive multiple inheritence.
+
+       //example
+       abstract class A2
+       {
+              void a2();
+
+       }
+       abstract class B2
+       {
+              void b2();
+
+       }
+
+       class MultipleEx implements A2,B2
+       {
+              void mul()
+              {
+                     print("Multiple Called");
+              }
+
+              void a2()
+              {
+                     print("a2 called");
+              }
+              void b2()
+              {    
+                     print("b2 called");
+              }
+
+       }
+       void main()
+       {
+              var m1 = MultipleEx();
+              m1.a2();
+              m1.b2();
+       }
+
+--> B) No class doesn't extends more than one class at once.
+       
+      -Because of dart doesn't support multiple inheritence this is not to be possible.
+
+      -It gives an error if you try to extends more than one class in dart.

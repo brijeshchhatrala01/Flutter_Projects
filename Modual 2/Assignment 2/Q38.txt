@@ -1,0 +1,4 @@
+Q : How do you prevent overriding a Dart method without using the final modifier?
+
+-- With the declareation of method as static we can achive prevent of method overriding.
+-- Other wise make class as sealed also prevent method from override.

@@ -1,0 +1,30 @@
+Q : What is inheritence?
+
+->  When you can access all the property like variable and method of base class from the object of derived class
+    than it is called inheritence.
+->  extends keyword use to achive inheritence.
+    -There are 5 types of inheritence 
+        1)Single inheritence
+        2)Multi-level inheritence
+        3)Multiple inheritence
+        4)Hierchical inheritence
+        5)Hybrid inheritence
+
+        
+->  example :- 
+    class A {
+        var num1;
+        A(this.num1);
+    }
+
+    class B extends A {
+        B(super.num1);
+        disp() {
+        print(super.num1);
+        }
+    }
+
+    void main(List<String> args) {
+        var object1 = B(24);
+        object1.disp();
+    }

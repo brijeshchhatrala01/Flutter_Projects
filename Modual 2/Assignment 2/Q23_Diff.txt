@@ -1,0 +1,21 @@
+Q : A) Difference between inheritance & encapsulation. B) Difference between Inheritance & abstraction
+
+A) -> Inheritance ::
+
+      - In inheritance child class acess method and variables of parrent class.
+      - It Support code reusablity.  
+      - Use extends keyword to achive inheritance.
+      - Inheritance done at class level.
+
+
+      Encapsulation ::
+      - In dart encapsulation is mechenism for hiding sensitive and important data from user.
+      - It Support data hiding feature.
+      - Throgh getter and setter you can make field private.
+      - encapsulation done at the library level.
+
+B) -> Abstraction ::
+
+      - It is a part of data encapsulation that allow user to hide internal working of function.
+      - Use abstract keyword to declare method or class abstract.
+      - Throgh abstract method you can achive method overriding.

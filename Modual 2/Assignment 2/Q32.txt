@@ -1,0 +1,11 @@
+Q : How do you restrict a member of a class from inheriting by its sub classes?
+
+--> With th declaration of final class we can restrict a member of class from inheriting by its subclass.
+
+    e.g. 
+    final class A {
+        var a = 3;
+    }
+    class B extends A{//genrate error 
+
+    }

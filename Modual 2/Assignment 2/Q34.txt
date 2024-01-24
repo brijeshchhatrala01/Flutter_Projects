@@ -1,0 +1,5 @@
+Q : Can a class extends itself?
+
+->  No class can't extends itself.
+    If you do that than it genrates compiler error.
+    

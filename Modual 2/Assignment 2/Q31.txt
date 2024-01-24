@@ -1,0 +1,8 @@
+Q : A)What happens if the parent and the child class have a field with same identifier?
+    B)Are constructors and initializers also inherited to sub classes?
+
+--> A) Child class field to be printed if parent class and child class have field with same identifier.
+       We make an object of child class so it gives importance to field which has in it's scope
+
+    B) Constructer and initializers doesn't inherit to subclass.
+       But you can call constructor of parent class with the use of super keyword in the subclass.

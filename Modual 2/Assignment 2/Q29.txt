@@ -1,0 +1,4 @@
+Q : What will happen if a class implements two interface and they both have a method with same name and signature ?
+
+--> Dart doesn't support method overloading so by the timing of declare two method  with same name compiler 
+    give us error.

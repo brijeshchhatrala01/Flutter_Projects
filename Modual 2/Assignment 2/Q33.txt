@@ -1,0 +1,32 @@
+Q : How do you implement multiple inheritence in dart?
+
+--> Through the use of interface we can achive multiple inheritence in dart.
+
+    //example
+    class A {
+        var a;
+    }
+
+    class B {
+        var b;
+    }   
+
+    class Test implements A, B {
+        @override
+        var a;
+
+        @override
+        var b;
+        Test(this.a, this.b);
+
+        dispTotal() {
+        print("Total : ${a + b}");
+        }
+    }
+
+    void main(List<String> args) {
+        var t1 = Test(2, 8);
+        t1.dispTotal();
+    }
+
+//hear class A and class B implement by class Test which show multiple inheritence achive Through the interface.

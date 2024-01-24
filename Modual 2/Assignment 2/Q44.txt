@@ -1,0 +1,17 @@
+Q : Can a superclass access subclass member?
+
+--> No superclass doesn't access subclass member.
+    But you can access superclass member in subclass.For the method and constructer you can use super keword.
+    If you try to access subclass member in superclass than it gives an compiler error.
+
+    //example
+    class A {
+        var a = 4;
+    }
+    class B extends A {
+        disp() => "Superclass member a : $a"
+    }
+    main() {
+        var ob1 = B();
+        print("${ob1.disp()}");
+    }

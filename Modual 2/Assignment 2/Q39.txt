@@ -1,0 +1,9 @@
+Q : What are the rules of method overriding?
+
+--> The method to be overridden must be written in the subclass, not in the same class.
+
+   -The return type and argument list must be the same as the method in the superclass.
+
+   -The constructor of the superclass cannot be inherited in a subclass.
+
+   -The methods defined in the child and the parent class should be the exact copy, from name to argument list except the content present inside the method.

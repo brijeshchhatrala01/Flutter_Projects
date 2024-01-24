@@ -1,0 +1,14 @@
+Q : Difference between Inheritence and Polymorphism.
+
+-> Inheritance : 
+      - In inheritance child class acess method and variables of parrent class.
+      - It Support code reusablity.  
+      - Use extends keyword to achive inheritance.
+      - Inheritance done at class level.
+      - It is more static.
+    
+    Polymorphism :
+      - Polymorphism simply means multiple form of single function.
+      - It uses at functional or method level.
+      - It is dynemic.
+      - achive through interface.

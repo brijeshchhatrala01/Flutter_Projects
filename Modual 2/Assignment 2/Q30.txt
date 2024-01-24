@@ -1,0 +1,7 @@
+Q : A) Can we pass an object of a subclass to a method expecting an object of the super class?
+    B) Are static member inherited to subclass?
+
+--> A) Yes we can pass an object of a subclass to a method of superclass because subclass and superclass is related by inheritence.
+
+--> B) No static member doesn't inherit to subclass. 
+       It's scoper only available to it's class.

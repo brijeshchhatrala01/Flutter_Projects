@@ -1,0 +1,8 @@
+Q : Can we overload static method in dart ?
+
+->  First of all dart doesn't support method overloading.  
+
+  - We can't overload static method in dart.
+
+  - It gives compiler error if you try to overload static method in dart.
+  

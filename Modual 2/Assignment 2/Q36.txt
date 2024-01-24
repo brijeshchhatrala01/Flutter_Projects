@@ -1,0 +1,5 @@
+Q : When to overload a method in Dart and when to override it?
+
+--> Dart doesn't support method overloading.
+    
+   -When you declare a method abstract or implement an interface which has method than you have to override it.

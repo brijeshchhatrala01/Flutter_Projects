@@ -1,0 +1,14 @@
+Q :- A)Which Inheritence is not supported by Dart? B)Why? C)What is Advantages of Inheritence.
+
+A) -> Multiple Inheritence is not supported by Dart.
+
+B) -> It doesn't supported Multiple Inheritence because of it can lead to ambiguity.
+      because of some classes may have same method than which method should dart called that's a reason which
+      dart doesn't supported Multiple Inheritence.
+
+C) -> Advantages of Inheritence
+    
+    - You can access member variable or method of parent class from one object.
+    - you can use parent class variable and method in derived class that supoort code reusablity.
+    - Through the one object you can access all this accessiblity of our code is easier.
+    - With the use of inheritance our code will be cleaner and simple.

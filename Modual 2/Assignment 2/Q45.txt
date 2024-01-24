@@ -1,0 +1,12 @@
+Q : Difference between object oriented and object based language.
+
+--> Object Oriented Language ::
+    -It support all the featuers of OOPS.
+    -Support featuers like : Inheritence, Polymorphism, Encapsulation, Abstraction etc.
+    -ex. Java,dart
+
+    
+    Object Based Language ::
+    -It doesn't support all the featuers of OOPS.
+    -It doesn't support featuers like Inheritence, Polymorphism etc.
+    -ex. Javascript,VB

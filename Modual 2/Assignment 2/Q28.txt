@@ -1,0 +1,7 @@
+Q : Can an interface extends more than one interface in dart ?
+
+--> Dart doesn't support multiple extends.
+
+   -implement keyword is use to implement interface class.
+    
+   -dart support multiple implements of interface not extends.

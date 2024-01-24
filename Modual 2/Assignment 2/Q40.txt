@@ -1,0 +1,15 @@
+Q : Difference between method overriding and overloading in dart.
+
+--> Method Overriding ::
+    -Method overriding means when subclass has same method as parent class.
+
+    -It require inheritence.
+
+    -It support in dart.
+
+    Method Overloading ::
+    -Method overloading means a class has multiple method with same name but diffrent parameter or return type.
+
+    -It doesn't require inheritence.
+    
+    -It doesn't support in dart.
