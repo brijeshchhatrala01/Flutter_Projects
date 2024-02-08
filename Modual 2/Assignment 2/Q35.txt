@@ -1,1 +1,20 @@
 Q : How do you override a private method in Dart?
+
+-> We can override private method in dart by extends a class in which the private method declare.
+
+- e.g.
+abstract class Test {
+  _display();
+}
+
+class TestPrivateMethod extends Test {
+  @override
+  _display() {
+    print('Display Method');
+  }
+}
+
+void main() {
+  var t = TestPrivateMethod();
+  t._display();
+}
